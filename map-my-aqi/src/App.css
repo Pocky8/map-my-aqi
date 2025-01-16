@@ -1,7 +1,14 @@
-/* General Styles */
-.headerz{
-    margin-left: 800px;
+.headerz {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #007bff; /* Matches your header background color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Optional text styling */
 }
+
 body {
     margin: 0;
     padding: 0;
